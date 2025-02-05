@@ -1,0 +1,17 @@
+{
+  "name": "kstour",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "sass sass/main.scss css/style.css -w",
+    "compile:sass": "sass sass/main.scss css/style.css",
+    "build": "npm run compile:sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "KS Tour - Adventure Tourism Website",
+  "devDependencies": {
+    "sass": "^1.x.x"
+  }
+}
